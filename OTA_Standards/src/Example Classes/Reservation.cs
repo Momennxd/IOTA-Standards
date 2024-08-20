@@ -1,17 +1,17 @@
-﻿using IOTA_Standards.Interfaces.OTAs_CMs.Reservations;
+﻿using IOTA_Standards.Interfaces.Members_Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IOTA_Standards.src.Reservations
+namespace IOTA_Standards.src.Example_Classes
 {
     /// <summary>
     /// An example of a class that implements the IReservationMembers that is used to communicated with the IOTA
     /// interface.
     /// </summary>
-    public class Reservation : IReservationMembers
+    public class Reservation : IReservation
     {
         public int ReservationID { get; set; }
 
@@ -48,6 +48,7 @@ namespace IOTA_Standards.src.Reservations
             NumberOfAccommodations = 0;
             ReservationDate = DateTime.MinValue;
             BuisnessName = string.Empty;
+
         }
     }
 

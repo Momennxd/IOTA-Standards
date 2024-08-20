@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7PujCAFvBYx187GoSK1hCuAYq8momTqpYUqtX0b8KN3IbcJDhqLOzHLybjmpZhlsURbWLdc3j9VXtycYleMlSA==",
+  "dgSpecHash": "vFi5Wkhfkgi3j83AYlC1zti9tbjLTXv4strcff+Q6lrbokC6nA9fSpXlQYHHFjkIh6TXk9Gxbfzoty0Hc6JkqQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\web_projects\\IOTA_Interfaces\\IOTA_Standards\\OTA_Standards.csproj",
+  "projectFilePath": "D:\\Projects\\web_projects\\IOTA_Interfaces\\OTA_Standards\\OTA_Standards.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALYOSER\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ALYOSER\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

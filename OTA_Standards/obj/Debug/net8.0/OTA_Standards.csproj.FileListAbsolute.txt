@@ -11,3 +11,16 @@ D:\Projects\web_projects\IOTA_Interfaces\IOTA_Standards\obj\Debug\net8.0\OTA_Sta
 D:\Projects\web_projects\IOTA_Interfaces\IOTA_Standards\obj\Debug\net8.0\refint\OTA_Standards.dll
 D:\Projects\web_projects\IOTA_Interfaces\IOTA_Standards\obj\Debug\net8.0\OTA_Standards.pdb
 D:\Projects\web_projects\IOTA_Interfaces\IOTA_Standards\obj\Debug\net8.0\ref\OTA_Standards.dll
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\bin\Debug\net8.0\OTA_Standards.deps.json
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\bin\Debug\net8.0\OTA_Standards.dll
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\bin\Debug\net8.0\OTA_Standards.pdb
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\OTA_Standards.csproj.AssemblyReference.cache
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\OTA_Standards.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\OTA_Standards.AssemblyInfoInputs.cache
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\OTA_Standards.AssemblyInfo.cs
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\OTA_Standards.csproj.CoreCompileInputs.cache
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\OTA_Standards.sourcelink.json
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\OTA_Standards.dll
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\refint\OTA_Standards.dll
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\OTA_Standards.pdb
+D:\Projects\web_projects\IOTA_Interfaces\OTA_Standards\obj\Debug\net8.0\ref\OTA_Standards.dll

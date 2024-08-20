@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OTA_Standards")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+266185d03cf2ed331c98481afbddc493869cbecc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c91e177a626f9d6e077e0e9cf155f182630b5e6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OTA_Standards")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OTA_Standards")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,18 @@
-﻿using IOTA_Standards.src.Reservations;
+﻿using IOTA_Standards.Interfaces.Members_Interfaces;
+using IOTA_Standards.src.Example_Classes;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using OTA_Standards.src.URL_schemas.Reservations;
 
 
 namespace IOTA_Standards.Interfaces.OTAs_CMs.Reservations
 {
 
-
     /// <summary>
     /// This interface is implemented by the OTAs and channel managers,
-    /// It contains the main endpoints that are consumpted by the CM and OTAs
+    /// It contains the main endpoints that are consumpted by the CM and HMS
     /// to standerlize the communication between them.
-    /// <para>-It should be implemented by a controller in the CMs and OTAs that manages reservations.</para>
+    /// <para>-It should be implemented by the controller in the CMs and OTAs that manages reservations.</para>
     /// <para>-The endpoint URL should be a combination of the base URL and the endpoint name.</para>
     /// <para>-You can get all the endpoint names from the official documantations.</para>
     /// </summary>
@@ -28,6 +29,7 @@ namespace IOTA_Standards.Interfaces.OTAs_CMs.Reservations
         /// <returns>
         /// True if the reservation was successfull, False if Not.
         /// </returns>
+        [Route(@$"{OTA_CM_Reservations_EndPoints.PostReservationEndPoint}")]
         public Task<ActionResult<bool>> ReserveAccomadation(Reservation reservation);
 
 
@@ -40,7 +42,9 @@ namespace IOTA_Standards.Interfaces.OTAs_CMs.Reservations
         /// <returns>
         /// An object from a class that implements the IReservation interface.
         /// </returns>
-        public Task<ActionResult<IReservationMembers>> UpdateReservation(Reservation reservation);
+       
+        [Route(@$"{OTA_CM_Reservations_EndPoints.PutReservationEndPoint}")]
+        public Task<ActionResult<IReservation>> UpdateReservation(Reservation reservation);
 
 
 
@@ -53,7 +57,9 @@ namespace IOTA_Standards.Interfaces.OTAs_CMs.Reservations
         /// <returns>
         /// An object from a class that implements the IReservation interface.
         /// </returns>
-        public Task<ActionResult<IReservationMembers>> PatchReservation(JsonPatchDocument<Reservation> jsonPatchReservation);
+        
+        [Route(@$"{OTA_CM_Reservations_EndPoints.PatchReservationEndPoint}")]
+        public Task<ActionResult<IReservation>> PatchReservation(JsonPatchDocument<Reservation> jsonPatchReservation);
 
 
 

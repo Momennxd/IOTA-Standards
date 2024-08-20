@@ -2,13 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace IOTA_Standards.Interfaces.OTAs_CMs.Reservations
+namespace IOTA_Standards.Interfaces.Members_Interfaces
 {
     /// <summary>
     /// This interface is implemented by the classes that communicate with the IOTA reservations endpoints
     /// to manage reservations.
     /// </summary>
-    public interface IReservationMembers
+    public interface IReservation
     {
         public int ReservationID { get; set; }
 

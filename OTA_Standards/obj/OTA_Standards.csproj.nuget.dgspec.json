@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\web_projects\\IOTA_Interfaces\\IOTA_Standards\\OTA_Standards.csproj": {}
+    "D:\\Projects\\web_projects\\IOTA_Interfaces\\OTA_Standards\\OTA_Standards.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\web_projects\\IOTA_Interfaces\\IOTA_Standards\\OTA_Standards.csproj": {
+    "D:\\Projects\\web_projects\\IOTA_Interfaces\\OTA_Standards\\OTA_Standards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\web_projects\\IOTA_Interfaces\\IOTA_Standards\\OTA_Standards.csproj",
+        "projectUniqueName": "D:\\Projects\\web_projects\\IOTA_Interfaces\\OTA_Standards\\OTA_Standards.csproj",
         "projectName": "OTA_Standards",
-        "projectPath": "D:\\Projects\\web_projects\\IOTA_Interfaces\\IOTA_Standards\\OTA_Standards.csproj",
+        "projectPath": "D:\\Projects\\web_projects\\IOTA_Interfaces\\OTA_Standards\\OTA_Standards.csproj",
         "packagesPath": "C:\\Users\\ALYOSER\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\web_projects\\IOTA_Interfaces\\IOTA_Standards\\obj\\",
+        "outputPath": "D:\\Projects\\web_projects\\IOTA_Interfaces\\OTA_Standards\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ALYOSER\\AppData\\Roaming\\NuGet\\NuGet.Config",
